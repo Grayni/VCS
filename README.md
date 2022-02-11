@@ -1,2 +1,1 @@
-# VCS
-Geekbrains Python
+# Урок 1. Знакомство с Python
