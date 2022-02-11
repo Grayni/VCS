@@ -5,7 +5,7 @@ profit = revenue - costs
 if revenue > costs:
     print(f'Рентабельность выручки: {profit / revenue}')
 else:
-    print('Фирма не прибыльна')
+    print('Фирма неприбыльна')
 
 print('')
 employees = int(input('Введите количество ваших сотрудников: '))
