@@ -11,4 +11,4 @@ def show_data(name='-', surname='-', born='-', city='-', email='-', phone='-'):
     print(', '.join([name, surname, born, city, email, phone]))
 
 
-show_data(surname=u_surname, born=u_born, name=u_name, city=u_city, email=u_email, phone=u_phone)
+show_data(surname=u_surname, born=u_born, city=u_city, name=u_name, email=u_email, phone=u_phone)
