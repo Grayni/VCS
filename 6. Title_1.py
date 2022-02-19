@@ -1,9 +1,8 @@
 # Title_1
-
-# 1 variant
 word = input('Введите слово: ')
 
 
+# 1 variant
 def title_func1(w):
     return w.title()
 
