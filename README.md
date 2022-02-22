@@ -1,2 +1,1 @@
-# VCS
-Geekbrains Python
+Урок 4. Полезные инструменты
