@@ -1,2 +1,1 @@
-# VCS
-Geekbrains Python
+Урок 5. Работа с файлами
