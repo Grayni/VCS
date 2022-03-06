@@ -9,7 +9,7 @@ with open('dir/s7_firms.txt', 'r', encoding='utf-8') as f:
         line = f.readline()[:-1]
 
         if not line:
-            profit['average_profit'] = round(profit['average_profit'] / counter, 2)
+            profit['average_profit'] = round(profit['average_profit'] / counter)
             break
 
         lst = line.split(' ')
@@ -19,7 +19,7 @@ with open('dir/s7_firms.txt', 'r', encoding='utf-8') as f:
             counter += 1
             profit['average_profit'] += profit_firm
 
-        firms[lst[0]] = int(lst[2]) - int(lst[3])
+        firms[lst[0]] = profit_firm
 
     print([firms, profit])
 
