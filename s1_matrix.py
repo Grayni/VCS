@@ -9,12 +9,13 @@ class Matrix:
 
     def __add__(self, other):
         print(f'sum matrix:\n{self.arr}\n{other.arr}\nresult:')
+        arr = self.arr[:]  # new matrix, also alternative - to replace self.arr
 
         for i in range(len(self.arr)):
             for j in range(len(self.arr[i])):
-                self.arr[i][j] = self.arr[i][j] + other.arr[i][j]
+                arr[i][j] = self.arr[i][j] + other.arr[i][j]
 
-        return Matrix(self.arr)
+        return Matrix(arr)
 
 
 arr_1 = [[31, 32], [37, 43], [51, 86]]
