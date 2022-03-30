@@ -15,7 +15,7 @@ class List:
                     elif value.replace('.', '').isdigit():
                         arr.append(float(value))
                     else:
-                        raise ValidNum('Введеное значение должно быть числом.')
+                        raise ValidNum('Введенное значение должно быть числом.')
                 except ValidNum as err:
                     print(err)
 
